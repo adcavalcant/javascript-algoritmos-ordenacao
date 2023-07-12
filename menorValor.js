@@ -13,8 +13,8 @@ function menorValor(arrProdutos, posicaoInicial) {
   return maisBarato;
 }
 
-console.log(
-  `O livro mais barato custa ${livros[maisBarato].preco} e o título é ${livros[maisBarato].titulo}`
-);
+// console.log(
+//   `O livro mais barato custa ${livros[maisBarato].preco} e o título é ${livros[maisBarato].titulo}`
+// );
 
 module.exports = menorValor;
